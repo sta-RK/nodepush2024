@@ -13,7 +13,7 @@ response = {
    console.log(response); 
 	console.log("Sent data are (GET): first name :"+req.query.first_name+" and last name :"+req.query.last_name);   
    //res.end(JSON.stringify(response));  
-   res.end("Sent data are (GET): First name :"+req.query.first_name+" and last name :"+req.query.last_name);
+   res.end("Sent data are (GET): First name :"+req.query.first_name+" and Last name :"+req.query.last_name);
 })  
 var server = app.listen(8080, function () {  
   
